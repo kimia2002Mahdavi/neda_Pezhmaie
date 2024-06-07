@@ -17,5 +17,3 @@ with open(os.path.join(output_path, output_filename), 'w') as f:
     f.write(json_string)
 
 print(f'JSON data saved to: {os.path.join(output_path, output_filename)}')
-
-
